@@ -23,7 +23,7 @@ function App() {
 					</div>
 				</div>
 			</div>
-			<img src={process.env.PUBLIC_URL + "/kompania.jpg"} style={{ width: "100%", borderRadius: "15px" }} />
+			<img src={process.env.PUBLIC_URL + "/kompania.jpg"} style={{ width: "85%", borderRadius: "15px" }} />
 			<div className="main__text">
 				Jesteśmy grupą przyjaciół, których łączy zamiłowanie do spotkań o charakterze militarnym. Nie wzięło się to znikąd. Część z nas ukończyła szkoły
 				o profilu wojskowym i policyjnym, niektórzy postanowili kontynuować karierę w tym kierunku a część osób po prostu to lubi. Dlatego spotykamy się
