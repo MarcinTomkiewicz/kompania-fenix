@@ -27,8 +27,8 @@ export const TopMenu = () => {
 					<div className="icon-X"></div>
 				</div>
 				<Offcanvas show={show} onHide={handleClose} style={{ backgroundColor: "black", color: "azure" }}>
-					<Offcanvas.Header closeButton>
-						<Offcanvas.Title>Kompania Fenix</Offcanvas.Title>
+					<Offcanvas.Header closeButton closeVariant="white">
+						<Offcanvas.Title style={{fontSize: "2rem"}}>Kompania Fenix</Offcanvas.Title>
 					</Offcanvas.Header>
 					<Offcanvas.Body>
 						
