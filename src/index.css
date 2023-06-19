@@ -208,10 +208,10 @@ body {
 		cursor: pointer;
 	}
 	.menu__element {
-		font-size: 1.5rem;
+		font-size: 2rem;
 	}
 	.offcanvas {
-		width: 60%!important;
+		width: 80%!important;
 	}
 }
 
@@ -297,7 +297,10 @@ body {
 	.hamburger__menu:hover {
 		cursor: pointer;
 	}
+	.menu__element {
+		font-size: 2rem;
+	}
 	.offcanvas {
-		width: 60%!important;
+		width: 80%!important;
 	}
 }
