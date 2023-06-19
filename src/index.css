@@ -127,7 +127,7 @@ body {
 
 @media screen and (max-width: 768px) {
 	.menu__items {
-		visibility: hidden;
+		display: none;
 	}
 	.hamburger__menu {
 		display: flex;
@@ -207,15 +207,17 @@ body {
 	.hamburger__menu:hover {
 		cursor: pointer;
 	}
-
 	.menu__element {
 		font-size: 1.5rem;
+	}
+	.offcanvas {
+		width: 60%!important;
 	}
 }
 
 @media screen and (max-width: 480px) {
 	.menu__items {
-		visibility: hidden;
+		display: none;
 	}
 	.hamburger__menu {
 		display: flex;
@@ -294,5 +296,8 @@ body {
 	}
 	.hamburger__menu:hover {
 		cursor: pointer;
+	}
+	.offcanvas {
+		width: 60%!important;
 	}
 }

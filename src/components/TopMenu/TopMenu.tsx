@@ -26,19 +26,18 @@ export const TopMenu = () => {
 					<div className="icon-E"></div>
 					<div className="icon-X"></div>
 				</div>
-				<Offcanvas show={show} onHide={handleClose} style={{ backgroundColor: "black", color: "azure" }}>
+				<Offcanvas show={show} onHide={handleClose} style={{ backgroundColor: "black", color: "azure" }} >
 					<Offcanvas.Header closeButton closeVariant="white">
-						<Offcanvas.Title style={{fontSize: "2rem"}}>Kompania Fenix</Offcanvas.Title>
+						<Offcanvas.Title style={{ fontSize: "2rem" }}>Kompania Fenix</Offcanvas.Title>
 					</Offcanvas.Header>
 					<Offcanvas.Body>
-						
-							{menuElements.map((menuElement) => {
-								return (
-									<div className="d-flex flex-column justify-content-start align-items-start w-100">
-										<div className="menu__element">{menuElement}</div>
-									</div>
-								);
-							})}
+						{menuElements.map((menuElement) => {
+							return (
+								<div className="d-flex flex-column justify-content-start align-items-start w-100">
+									<div className="menu__element">{menuElement}</div>
+								</div>
+							);
+						})}
 						{/* </div> */}
 					</Offcanvas.Body>
 				</Offcanvas>
