@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Offcanvas } from "react-bootstrap";
 import { Link, useLocation } from "react-router-dom";
-import { menuElements } from "../../utils/backend";
+import { menuElements } from "../../shared/utils/backend";
 
 export const TopMenu = () => {
 	let location = useLocation();

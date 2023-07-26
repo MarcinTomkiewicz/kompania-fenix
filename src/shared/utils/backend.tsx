@@ -1,4 +1,4 @@
-import { LinksInterface, NewsInterface } from "./interfaces";
+import { CarouselElementInterface, LinksInterface, NewsInterface } from "./interfaces";
 
 export const smokeNews: NewsInterface[] = [
 	{
@@ -54,9 +54,33 @@ export const smokeNews: NewsInterface[] = [
 ];
 
 export const menuElements: LinksInterface[] = [
-    {name: "Home", link: "/"},
-    {name: "Galeria", link: "gallery"},
-    {name: "Zloty", link: "events"},
-    {name: "O nas", link: "about"},
-    {name: "Kontakt", link: "contact"}
+	{ name: "Home", link: "/" },
+	{ name: "Galeria", link: "gallery" },
+	{ name: "Zloty", link: "events" },
+	{ name: "O nas", link: "about" },
+	{ name: "Kontakt", link: "contact" },
+];
+
+export const carouselElementData: CarouselElementInterface[] = [
+	{
+		imgSource: "images/have_fun.jpg",
+		header: "Niezapomniana rozrywka",
+		description: "Kompania Fenix to niezapomniane wrażenia dla wszystkich, niezależnie od płci i wieku.",
+		buttonLink: "/about",
+		buttonText: "O nas",
+	},
+	{
+		imgSource: "images/torches.png",
+		header: "Dołącz do nas",
+		description: "Chcesz zostać członkiem Kompanii Fenix? Nic prostszego - skontaktuj się z nami i weź udział w przygodzie swojego życia",
+		buttonLink: "/",
+		buttonText: "Kontakt",
+	},
+	{
+		imgSource: "images/plan.png",
+		header: "Plan to ciągły rozwój",
+		description: "Uczestniczymy w zlotach militarnych i aktywnie bierzemy udział w lokalnych oraz ogólnopolskich wydarzeniach. Sprawdź gdzie dotychczas byliśmy",
+		buttonLink: "/",
+		buttonText: "Zloty",
+	},
 ];

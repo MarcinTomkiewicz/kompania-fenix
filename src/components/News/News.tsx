@@ -1,4 +1,4 @@
-import { NewsPropsInterface } from "../../utils/interfaces";
+import { NewsPropsInterface } from "../../shared/utils/interfaces";
 
 export const News = ({}: NewsPropsInterface) => {
 	return (

@@ -4,6 +4,7 @@ import { Home } from "./components/Home/Home";
 import { TopMenu } from "./components/TopMenu/TopMenu";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
+import 'react-awesome-slider/dist/styles.css';
 import { Footer } from "./components/Footer/Footer";
 
 function App() {
@@ -11,7 +12,7 @@ function App() {
 		<>
 			<div className="wrapper">
 				<TopMenu />
-				<div style={{ width: "90%", minHeight: "75vh" }}>
+				<div style={{ width: "90%", minHeight: "66vh" }}>
 					<Routes>
 						<Route path="/" element={<Home />} />
 						<Route path="about" element={<About />} />

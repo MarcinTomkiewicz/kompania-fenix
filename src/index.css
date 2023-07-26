@@ -153,6 +153,13 @@ body {
 	width: 370px;
 }
 
+.footer__disclaimer {
+	display: flex;
+	flex-direction: column;
+	max-width: 70%;
+	text-align: justify;
+}
+
 @media screen and (max-width: 1200px) {
 	.menu__items {
 		font-size: 1.2rem;
@@ -261,7 +268,7 @@ body {
 		top: 0;
 		left: 0;
 		height: 100%;
-		background: rgb(211, 212, 206);
+		background: rgb(26, 45, 0);
 		-webkit-transform: skew(-30deg, 0deg);
 		-moz-transform: skew(-30deg, 0deg);
 		-ms-transform: skew(-30deg, 0deg);
@@ -276,6 +283,9 @@ body {
 	.footer {
 		flex-direction: column;
 		gap: 10px;
+	}
+	.footer__disclaimer {
+		max-width: 100%;
 	}
 }
 
@@ -397,5 +407,8 @@ body {
 	}
 	.icons__set {
 		width: 270px;
+	}
+	.footer__disclaimer {
+		max-width: 100%;
 	}
 }
