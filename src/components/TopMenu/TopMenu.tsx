@@ -48,11 +48,12 @@ export const TopMenu = () => {
 						{menuElements.map((menuElement) => {
 							return (
 								<div className="d-flex flex-column justify-content-center align-items-start w-100 text-center">
-									<div className="menu__element">{menuElement.name}</div>
+									<Link to={`${menuElement.link}`} style={{ all: "unset", cursor: "pointer" }} onClick={() => handleClose()}>
+										<div className="menu__element">{menuElement.name}</div>
+									</Link>
 								</div>
 							);
 						})}
-						{/* </div> */}
 					</Offcanvas.Body>
 				</Offcanvas>
 			</div>
